@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OplusNoRedOne</string>
+    <string name="xposeddescription">Disable the red \"1\" in digital clocks for OxygenOS 14.</string>
+</resources>
