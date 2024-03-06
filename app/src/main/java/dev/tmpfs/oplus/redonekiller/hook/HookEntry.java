@@ -27,6 +27,7 @@ public class HookEntry implements IXposedHookLoadPackage, IXposedHookZygoteInit 
         }
         try {
             DisableRedOneClock.init(lpparam.classLoader);
+            HideAodSilentNotificationIcon.init(lpparam.classLoader);
         } catch (Exception | LinkageError | AssertionError e) {
             Log.e("handleLoadPackage", e);
         }
